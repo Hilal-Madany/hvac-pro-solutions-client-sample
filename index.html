@@ -1,0 +1,1731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HVAC Pro Solutions | #1 MEPF Contractor — AC, Electrical, Plumbing & Fire Safety</title>
+  <!-- SEO Meta -->
+  <meta name="description" content="HVAC Pro Solutions — trusted MEPF contractor since 2012. Expert AC installation, electrical, plumbing, fire fighting systems. 24/7 emergency repair. AMC plans available. Serving 20+ cities.">
+  <meta name="keywords" content="HVAC contractor, AC repair, MEP contractor, air conditioning maintenance, chiller AMC, VRF system, plumbing services, electrical contractor, fire fighting system, building maintenance, facility management, commercial HVAC, residential AC, emergency repair">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="HVAC Pro Solutions">
+  <!-- Open Graph -->
+  <meta property="og:title" content="HVAC Pro Solutions | Expert MEPF Contracting">
+  <meta property="og:description" content="Professional HVAC & MEPF services — AC, electrical, plumbing, fire safety. 24/7 emergency response. Free consultation.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.hvacprosolutions.com">
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "HVAC Pro Solutions",
+    "image": "https://www.hvacprosolutions.com/logo.png",
+    "telephone": "+1-888-555-0123",
+    "email": "info@hvacprosolutions.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Industrial Park, Suite 400",
+      "addressLocality": "Your City",
+      "addressRegion": "State",
+      "postalCode": "00000",
+      "addressCountry": "US"
+    },
+    "openingHours": "Mo-Su 00:00-23:59",
+    "priceRange": "$$",
+    "description": "Professional HVAC and MEPF contracting services. AMC plans, emergency repair, installations.",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "310"
+    }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy: #0a1628;
+      --navy2: #0f2040;
+      --orange: #f97316;
+      --orange2: #ea580c;
+      --ice: #e0f2fe;
+      --mid: #64748b;
+      --light: #f8fafc;
+      --white: #ffffff;
+      --border: #e2e8f0;
+      --text: #1e293b;
+      --radius: 20px;
+      --shadow: 0 8px 30px rgba(0,0,0,0.08);
+      --font-head: 'Syne', sans-serif;
+      --font-body: 'DM Sans', sans-serif;
+    }
+
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+    /* ===== TOP BAR ===== */
+    .topbar {
+      background: var(--navy);
+      color: #94a3b8;
+      font-size: 0.78rem;
+      padding: 8px 0;
+      font-family: var(--font-body);
+    }
+    .topbar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .topbar a { color: var(--orange); text-decoration: none; }
+    .topbar-right { display: flex; gap: 20px; flex-wrap: wrap; }
+
+    /* ===== HEADER ===== */
+    .header {
+      background: var(--white);
+      padding: 16px 0;
+      position: sticky;
+      top: 0;
+      z-index: 200;
+      box-shadow: 0 2px 20px rgba(0,0,0,0.07);
+      border-bottom: 2px solid var(--border);
+    }
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+    .logo {
+      font-family: var(--font-head);
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--navy);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .logo span { color: var(--orange); }
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .nav a {
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      padding: 6px 12px;
+      border-radius: 8px;
+      transition: 0.2s;
+    }
+    .nav a:hover { color: var(--orange); background: #fff5ee; }
+    .nav .cta-nav {
+      background: var(--orange);
+      color: white;
+      padding: 9px 20px;
+      border-radius: 40px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .nav .cta-nav:hover { background: var(--orange2); color: white; }
+
+    /* Mobile toggle */
+    .menu-toggle {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      flex-direction: column;
+      gap: 5px;
+      padding: 4px;
+    }
+    .menu-toggle span {
+      display: block;
+      width: 26px;
+      height: 2.5px;
+      background: var(--navy);
+      border-radius: 4px;
+      transition: 0.3s;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy2) 55%, #0c1f3d 100%);
+      color: white;
+      padding: 80px 0 60px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -80px; right: -80px;
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, rgba(249,115,22,0.12) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      bottom: -100px; left: -60px;
+      width: 400px; height: 400px;
+      background: radial-gradient(circle, rgba(14,165,233,0.07) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(249,115,22,0.15);
+      border: 1px solid rgba(249,115,22,0.35);
+      color: var(--orange);
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 6px 16px;
+      border-radius: 40px;
+      margin-bottom: 22px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .hero h1 {
+      font-family: var(--font-head);
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 18px;
+    }
+    .hero h1 em { color: var(--orange); font-style: normal; }
+    .hero-desc {
+      font-size: 1.05rem;
+      opacity: 0.85;
+      margin-bottom: 32px;
+      max-width: 480px;
+    }
+    .hero-btns { display: flex; gap: 14px; flex-wrap: wrap; }
+    .btn-primary {
+      background: var(--orange);
+      color: var(--navy);
+      border: none;
+      padding: 14px 32px;
+      font-size: 1rem;
+      font-weight: 700;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: 0.2s;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .btn-primary:hover { background: var(--orange2); transform: translateY(-1px); }
+    .btn-outline {
+      background: transparent;
+      color: white;
+      border: 1.5px solid rgba(255,255,255,0.4);
+      padding: 14px 32px;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: 0.2s;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .btn-outline:hover { border-color: var(--orange); color: var(--orange); }
+    .hero-stats {
+      display: flex;
+      gap: 32px;
+      margin-top: 40px;
+      flex-wrap: wrap;
+    }
+    .stat { border-left: 3px solid var(--orange); padding-left: 14px; }
+    .stat-num { font-family: var(--font-head); font-size: 1.9rem; font-weight: 800; color: white; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: #94a3b8; margin-top: 2px; }
+
+    /* Hero right — cards */
+    .hero-cards { display: flex; flex-direction: column; gap: 14px; }
+    .hcard {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      padding: 18px 22px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      transition: 0.25s;
+    }
+    .hcard:hover { background: rgba(255,255,255,0.1); border-color: rgba(249,115,22,0.4); }
+    .hcard-icon { font-size: 1.8rem; flex-shrink: 0; }
+    .hcard-title { font-family: var(--font-head); font-size: 1rem; font-weight: 700; color: white; }
+    .hcard-desc { font-size: 0.82rem; color: #94a3b8; margin-top: 2px; }
+
+    /* ===== TRUST STRIP ===== */
+    .trust-strip {
+      background: var(--light);
+      border-bottom: 1px solid var(--border);
+      padding: 22px 0;
+    }
+    .trust-grid {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--navy);
+    }
+    .trust-item span.icon { font-size: 1.4rem; }
+
+    /* ===== SERVICES ===== */
+    .services { padding: 90px 0; background: var(--white); }
+    .section-label {
+      display: inline-block;
+      background: #fff5ee;
+      color: var(--orange);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 6px 16px;
+      border-radius: 40px;
+      margin-bottom: 14px;
+    }
+    .section-title {
+      font-family: var(--font-head);
+      font-size: clamp(1.7rem, 3vw, 2.6rem);
+      font-weight: 800;
+      color: var(--navy);
+      margin-bottom: 14px;
+      line-height: 1.2;
+    }
+    .section-sub { color: var(--mid); font-size: 1.05rem; max-width: 560px; }
+    .section-head { margin-bottom: 50px; }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 24px;
+    }
+    .svc-card {
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      padding: 32px 24px;
+      transition: 0.3s;
+      position: relative;
+      overflow: hidden;
+      background: white;
+    }
+    .svc-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 4px;
+      background: var(--orange);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: 0.3s;
+    }
+    .svc-card:hover { box-shadow: 0 16px 48px rgba(249,115,22,0.12); border-color: var(--orange); transform: translateY(-4px); }
+    .svc-card:hover::before { transform: scaleX(1); }
+    .svc-icon {
+      width: 58px; height: 58px;
+      background: #fff5ee;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+      margin-bottom: 18px;
+    }
+    .svc-card h3 {
+      font-family: var(--font-head);
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 10px;
+    }
+    .svc-card p { color: var(--mid); font-size: 0.92rem; margin-bottom: 16px; }
+    .svc-list {
+      list-style: none;
+      font-size: 0.85rem;
+      color: #475569;
+    }
+    .svc-list li { padding: 3px 0; display: flex; align-items: flex-start; gap: 6px; }
+    .svc-list li::before { content: '✓'; color: var(--orange); font-weight: 700; flex-shrink: 0; }
+    .svc-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--orange);
+      font-weight: 600;
+      font-size: 0.88rem;
+      margin-top: 18px;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+    .svc-link:hover { gap: 10px; }
+
+    /* ===== PRODUCTS ===== */
+    .products { padding: 90px 0; background: var(--light); }
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .prod-card {
+      background: white;
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1.5px solid var(--border);
+      transition: 0.3s;
+      text-align: center;
+    }
+    .prod-card:hover { box-shadow: var(--shadow); border-color: var(--orange); transform: translateY(-3px); }
+    .prod-img {
+      background: linear-gradient(135deg, var(--navy) 0%, #1e3a5f 100%);
+      padding: 40px 20px;
+      font-size: 4rem;
+    }
+    .prod-body { padding: 20px; }
+    .prod-body h4 {
+      font-family: var(--font-head);
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 6px;
+    }
+    .prod-body p { font-size: 0.82rem; color: var(--mid); margin-bottom: 14px; }
+    .prod-tag {
+      display: inline-block;
+      background: #fff5ee;
+      color: var(--orange);
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 40px;
+    }
+
+    /* ===== WHY US ===== */
+    .whyus { padding: 90px 0; background: var(--navy); color: white; }
+    .whyus .section-title { color: white; }
+    .whyus .section-sub { color: #94a3b8; }
+    .why-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+      margin-top: 50px;
+    }
+    .why-items { display: flex; flex-direction: column; gap: 28px; }
+    .why-item { display: flex; gap: 18px; align-items: flex-start; }
+    .why-num {
+      font-family: var(--font-head);
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: var(--orange);
+      opacity: 0.3;
+      line-height: 1;
+      min-width: 40px;
+    }
+    .why-content h4 { font-family: var(--font-head); font-size: 1.1rem; font-weight: 700; color: white; margin-bottom: 6px; }
+    .why-content p { color: #94a3b8; font-size: 0.9rem; line-height: 1.65; }
+    .why-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .wstat-card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 20px;
+      padding: 28px 20px;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .wstat-card:hover { background: rgba(249,115,22,0.1); border-color: rgba(249,115,22,0.3); }
+    .wstat-num {
+      font-family: var(--font-head);
+      font-size: 2.4rem;
+      font-weight: 800;
+      color: var(--orange);
+      line-height: 1;
+    }
+    .wstat-label { font-size: 0.82rem; color: #94a3b8; margin-top: 6px; }
+
+    /* ===== EMERGENCY ===== */
+    .emergency {
+      background: linear-gradient(135deg, var(--orange2) 0%, var(--orange) 100%);
+      color: white;
+      padding: 60px 0;
+    }
+    .emergency-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    .emergency h2 {
+      font-family: var(--font-head);
+      font-size: clamp(1.5rem, 3vw, 2.2rem);
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+    .emergency p { opacity: 0.9; font-size: 1rem; }
+    .btn-white {
+      background: white;
+      color: var(--orange2);
+      padding: 14px 32px;
+      border-radius: 50px;
+      border: none;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: 0.2s;
+    }
+    .btn-white:hover { transform: scale(1.03); box-shadow: 0 8px 30px rgba(0,0,0,0.2); }
+
+    /* ===== HOW IT WORKS ===== */
+    .howitworks { padding: 90px 0; }
+    .process-steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 0;
+      position: relative;
+      margin-top: 50px;
+    }
+    .process-steps::before {
+      content: '';
+      position: absolute;
+      top: 38px;
+      left: 10%;
+      right: 10%;
+      height: 2px;
+      background: linear-gradient(to right, var(--orange), var(--border), var(--orange));
+      z-index: 0;
+    }
+    .step {
+      text-align: center;
+      padding: 0 20px;
+      position: relative;
+      z-index: 1;
+    }
+    .step-circle {
+      width: 76px; height: 76px;
+      background: white;
+      border: 3px solid var(--orange);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      margin: 0 auto 20px;
+      box-shadow: 0 0 0 8px #fff5ee;
+    }
+    .step h4 {
+      font-family: var(--font-head);
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 8px;
+    }
+    .step p { font-size: 0.85rem; color: var(--mid); }
+
+    /* ===== REVIEWS ===== */
+    .reviews { padding: 90px 0; background: var(--light); }
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+    .review-card {
+      background: white;
+      border-radius: var(--radius);
+      padding: 28px;
+      border: 1.5px solid var(--border);
+      transition: 0.3s;
+    }
+    .review-card:hover { box-shadow: var(--shadow); border-color: var(--orange); }
+    .stars { color: #fbbf24; font-size: 1rem; margin-bottom: 14px; letter-spacing: 2px; }
+    .review-text { color: #334155; font-size: 0.92rem; line-height: 1.75; margin-bottom: 18px; font-style: italic; }
+    .reviewer { display: flex; align-items: center; gap: 12px; }
+    .rev-avatar {
+      width: 44px; height: 44px;
+      background: linear-gradient(135deg, var(--orange), var(--orange2));
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 700;
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+    .rev-name { font-weight: 700; font-size: 0.9rem; color: var(--navy); }
+    .rev-role { font-size: 0.78rem; color: var(--mid); }
+
+    /* ===== BLOG ===== */
+    .blog { padding: 90px 0; }
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+    .blog-card {
+      background: white;
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1.5px solid var(--border);
+      transition: 0.3s;
+    }
+    .blog-card:hover { box-shadow: var(--shadow); border-color: var(--orange); transform: translateY(-3px); }
+    .blog-thumb {
+      background: linear-gradient(135deg, var(--navy) 0%, #1a3560 100%);
+      padding: 32px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      height: 150px;
+    }
+    .blog-body { padding: 22px; }
+    .blog-tag {
+      display: inline-block;
+      background: #fff5ee;
+      color: var(--orange);
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 40px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .blog-card h4 {
+      font-family: var(--font-head);
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 10px;
+      line-height: 1.4;
+    }
+    .blog-card p { font-size: 0.85rem; color: var(--mid); margin-bottom: 16px; }
+    .blog-meta { display: flex; justify-content: space-between; align-items: center; font-size: 0.78rem; color: #94a3b8; }
+    .read-more {
+      color: var(--orange);
+      font-weight: 600;
+      font-size: 0.82rem;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+    .read-more:hover { gap: 8px; }
+
+    /* ===== AMC PLANS ===== */
+    .amc { padding: 90px 0; background: var(--light); }
+    .plans-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 24px;
+      margin-top: 50px;
+    }
+    .plan-card {
+      background: white;
+      border-radius: var(--radius);
+      padding: 36px 28px;
+      border: 2px solid var(--border);
+      text-align: center;
+      transition: 0.3s;
+      position: relative;
+    }
+    .plan-card.featured {
+      border-color: var(--orange);
+      box-shadow: 0 20px 60px rgba(249,115,22,0.15);
+    }
+    .plan-badge {
+      position: absolute;
+      top: -14px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--orange);
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 5px 18px;
+      border-radius: 40px;
+      white-space: nowrap;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .plan-card h3 {
+      font-family: var(--font-head);
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: var(--navy);
+      margin-bottom: 8px;
+    }
+    .plan-price {
+      font-family: var(--font-head);
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--orange);
+      margin: 16px 0 6px;
+    }
+    .plan-price span { font-size: 1rem; color: var(--mid); font-weight: 400; }
+    .plan-desc { font-size: 0.85rem; color: var(--mid); margin-bottom: 22px; }
+    .plan-features { list-style: none; text-align: left; margin-bottom: 28px; }
+    .plan-features li {
+      font-size: 0.88rem;
+      color: #475569;
+      padding: 5px 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .plan-features li::before { content: '✓'; color: var(--orange); font-weight: 700; flex-shrink: 0; }
+
+    /* ===== MAP + TIMING ===== */
+    .location { padding: 90px 0; }
+    .location-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: start;
+    }
+    .map-wrapper {
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 2px solid var(--border);
+      box-shadow: var(--shadow);
+    }
+    .map-wrapper iframe {
+      width: 100%;
+      height: 380px;
+      display: block;
+      border: none;
+    }
+    .location-info h3 {
+      font-family: var(--font-head);
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--navy);
+      margin-bottom: 24px;
+    }
+    .info-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .info-row:last-child { border-bottom: none; }
+    .info-icon {
+      width: 42px; height: 42px;
+      background: #fff5ee;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+    .info-label { font-size: 0.78rem; color: var(--mid); text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+    .info-value { font-size: 0.95rem; color: var(--navy); font-weight: 600; margin-top: 3px; }
+    .hours-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; margin-top: 4px; }
+    .hour-row { font-size: 0.82rem; color: var(--mid); }
+    .hour-row strong { color: var(--navy); }
+    .open-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #dcfce7;
+      color: #16a34a;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 40px;
+      margin-top: 8px;
+    }
+    .open-badge::before { content: ''; width: 7px; height: 7px; background: #16a34a; border-radius: 50%; animation: pulse 1.5s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:0.3;} }
+
+    /* ===== CONTACT FORM ===== */
+    .contact { padding: 90px 0; background: var(--light); }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.4fr;
+      gap: 60px;
+      align-items: start;
+    }
+    .contact-info h3 {
+      font-family: var(--font-head);
+      font-size: 1.7rem;
+      font-weight: 800;
+      color: var(--navy);
+      margin-bottom: 14px;
+    }
+    .contact-info p { color: var(--mid); font-size: 0.95rem; margin-bottom: 30px; }
+    .contact-cards { display: flex; flex-direction: column; gap: 14px; }
+    .ccard {
+      background: white;
+      border: 1.5px solid var(--border);
+      border-radius: 14px;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      transition: 0.2s;
+      text-decoration: none;
+    }
+    .ccard:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(249,115,22,0.1); }
+    .ccard-icon { font-size: 1.4rem; }
+    .ccard-label { font-size: 0.75rem; color: var(--mid); text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+    .ccard-value { font-size: 0.95rem; color: var(--navy); font-weight: 700; }
+    .form-box {
+      background: white;
+      border-radius: var(--radius);
+      padding: 40px;
+      border: 1.5px solid var(--border);
+      box-shadow: var(--shadow);
+    }
+    .form-title {
+      font-family: var(--font-head);
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: var(--navy);
+      margin-bottom: 24px;
+    }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .form-group { margin-bottom: 16px; }
+    .form-group label { display: block; font-size: 0.82rem; font-weight: 600; color: var(--navy); margin-bottom: 6px; }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      font-size: 0.92rem;
+      font-family: var(--font-body);
+      color: var(--text);
+      background: white;
+      transition: 0.2s;
+      outline: none;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      border-color: var(--orange);
+      box-shadow: 0 0 0 3px rgba(249,115,22,0.1);
+    }
+    .form-group textarea { resize: vertical; min-height: 110px; }
+    .submit-btn {
+      background: var(--orange);
+      color: white;
+      width: 100%;
+      padding: 14px;
+      font-size: 1rem;
+      font-weight: 700;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: 0.2s;
+      font-family: var(--font-body);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 6px;
+    }
+    .submit-btn:hover { background: var(--orange2); transform: translateY(-1px); }
+
+    /* ===== FOOTER ===== */
+    .footer { background: var(--navy); color: #94a3b8; padding: 60px 0 0; }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1.2fr;
+      gap: 50px;
+      padding-bottom: 50px;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+    .footer-brand .logo { color: white; display: block; margin-bottom: 16px; text-decoration: none; }
+    .footer-brand p { font-size: 0.88rem; line-height: 1.75; margin-bottom: 22px; max-width: 280px; }
+    .social-links { display: flex; gap: 10px; }
+    .social-link {
+      width: 38px; height: 38px;
+      background: rgba(255,255,255,0.07);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+    .social-link:hover { background: var(--orange); }
+    .footer-col h5 {
+      font-family: var(--font-head);
+      font-size: 1rem;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 18px;
+    }
+    .footer-col ul { list-style: none; }
+    .footer-col ul li { margin-bottom: 10px; }
+    .footer-col ul li a {
+      color: #94a3b8;
+      text-decoration: none;
+      font-size: 0.88rem;
+      transition: 0.2s;
+    }
+    .footer-col ul li a:hover { color: var(--orange); padding-left: 4px; }
+    .cert-badges { display: flex; flex-direction: column; gap: 10px; }
+    .cert-badge {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 10px;
+      padding: 10px 14px;
+      font-size: 0.82rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .footer-bottom {
+      padding: 20px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      font-size: 0.8rem;
+    }
+    .accumen-link { color: var(--orange); text-decoration: none; font-weight: 600; }
+    .accumen-link:hover { text-decoration: underline; }
+
+    /* ===== FLOATING CTA ===== */
+    .floating-cta {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 999;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 10px;
+    }
+    .float-btn {
+      width: 58px; height: 58px;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+      transition: 0.25s;
+      text-decoration: none;
+    }
+    .float-phone { background: #16a34a; color: white; }
+    .float-phone:hover { transform: scale(1.1); }
+    .float-chat { background: var(--orange); color: white; }
+    .float-chat:hover { transform: scale(1.1); }
+
+    /* ===== MOBILE NAV OVERLAY ===== */
+    .mobile-nav {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: var(--navy);
+      z-index: 9999;
+      flex-direction: column;
+      padding: 30px 24px;
+      overflow-y: auto;
+    }
+    .mobile-nav.active { display: flex; }
+    .mobile-nav-close {
+      align-self: flex-end;
+      background: rgba(255,255,255,0.1);
+      border: none;
+      color: white;
+      font-size: 1.4rem;
+      width: 42px; height: 42px;
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .mobile-nav .logo { color: white; display: block; margin: 20px 0 30px; text-decoration: none; font-size: 1.6rem; }
+    .mobile-nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.3rem;
+      font-family: var(--font-head);
+      font-weight: 700;
+      padding: 16px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      display: block;
+    }
+    .mobile-nav a:last-child { border-bottom: none; }
+    .mobile-nav a.orange { color: var(--orange); }
+    .mobile-cta {
+      margin-top: 30px;
+      padding: 16px;
+      background: var(--orange);
+      color: white;
+      text-align: center;
+      border-radius: 14px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      text-decoration: none;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 1024px) {
+      .hero-grid { grid-template-columns: 1fr; gap: 40px; }
+      .hero-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+      .why-grid { grid-template-columns: 1fr; }
+      .location-grid { grid-template-columns: 1fr; }
+      .contact-grid { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+    }
+    @media (max-width: 768px) {
+      .topbar { display: none; }
+      .nav { display: none; }
+      .menu-toggle { display: flex; }
+      .hero { padding: 50px 0 40px; }
+      .hero h1 { font-size: 2rem; }
+      .hero-cards { grid-template-columns: 1fr; }
+      .hero-stats { gap: 20px; }
+      .process-steps::before { display: none; }
+      .form-row { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .why-stats { grid-template-columns: 1fr 1fr; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+      .emergency-inner { flex-direction: column; text-align: center; }
+      .floating-cta { bottom: 16px; right: 16px; }
+    }
+    @media (max-width: 480px) {
+      .plans-grid { grid-template-columns: 1fr; }
+      .why-stats { grid-template-columns: 1fr; }
+      .form-box { padding: 24px; }
+    }
+
+    /* Scroll reveal */
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: none;
+    }
+  </style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div>📍 Serving 20+ Cities &nbsp;|&nbsp; Licensed & Insured MEPF Contractor</div>
+    <div class="topbar-right">
+      <span>🕐 24/7 Emergency Response</span>
+      <a href="mailto:info@hvacprosolutions.com">✉ info@hvacprosolutions.com</a>
+      <a href="tel:+18885550123">📞 (888) 555-0123</a>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container header-inner">
+    <a href="#" class="logo">HVAC Pro <span>Solutions</span></a>
+    <nav class="nav">
+      <a href="#services">Services</a>
+      <a href="#products">Products</a>
+      <a href="#amc">AMC Plans</a>
+      <a href="#blog">Blog</a>
+      <a href="#location">Location</a>
+      <a href="#contact" class="cta-nav">📋 Free Quote</a>
+    </nav>
+    <button class="menu-toggle" onclick="openMobileNav()" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <button class="mobile-nav-close" onclick="closeMobileNav()">✕</button>
+  <a href="#" class="logo">HVAC Pro <span>Solutions</span></a>
+  <a href="#services" onclick="closeMobileNav()">🔧 Services</a>
+  <a href="#products" onclick="closeMobileNav()">📦 Products</a>
+  <a href="#amc" onclick="closeMobileNav()">📋 AMC Plans</a>
+  <a href="#blog" onclick="closeMobileNav()">📝 Blog</a>
+  <a href="#location" onclick="closeMobileNav()">📍 Location & Timing</a>
+  <a href="#contact" onclick="closeMobileNav()">✉ Contact</a>
+  <a href="tel:+18885550123" class="mobile-cta">📞 Call (888) 555-0123</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-badge">⭐ Trusted Since 2012 — 1,200+ Projects</div>
+        <h1>Expert <em>HVAC &amp; MEPF</em><br>Contracting Services</h1>
+        <p class="hero-desc">Commercial &amp; residential AC, electrical, plumbing, and fire safety systems. Same-day emergency response. Serving 20+ cities with over a decade of proven excellence.</p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn-primary">🔧 Get Free Consultation</a>
+          <a href="tel:+18885550123" class="btn-outline">📞 Call Now</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><div class="stat-num">12+</div><div class="stat-label">Years of Experience</div></div>
+          <div class="stat"><div class="stat-num">1,200+</div><div class="stat-label">Projects Completed</div></div>
+          <div class="stat"><div class="stat-num">4.9★</div><div class="stat-label">Customer Rating</div></div>
+          <div class="stat"><div class="stat-num">2h</div><div class="stat-label">Emergency Response</div></div>
+        </div>
+      </div>
+      <div class="hero-cards">
+        <div class="hcard"><div class="hcard-icon">❄️</div><div><div class="hcard-title">HVAC Systems</div><div class="hcard-desc">Chillers, VRF, AHU, splits, package units</div></div></div>
+        <div class="hcard"><div class="hcard-icon">⚡</div><div><div class="hcard-title">Electrical Works</div><div class="hcard-desc">LT/HT panels, wiring, lighting, DG sets</div></div></div>
+        <div class="hcard"><div class="hcard-icon">💧</div><div><div class="hcard-title">Plumbing Systems</div><div class="hcard-desc">Water supply, STP, drainage, pumps</div></div></div>
+        <div class="hcard"><div class="hcard-icon">🔥</div><div><div class="hcard-title">Fire Fighting</div><div class="hcard-desc">Sprinklers, hydrants, FM200, alarms</div></div></div>
+        <div class="hcard"><div class="hcard-icon">🏗️</div><div><div class="hcard-title">AMC Contracts</div><div class="hcard-desc">Comprehensive annual maintenance plans</div></div></div>
+        <div class="hcard"><div class="hcard-icon">🚨</div><div><div class="hcard-title">24/7 Emergency</div><div class="hcard-desc">Rapid breakdown response, all MEP</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<div class="trust-strip">
+  <div class="container">
+    <div class="trust-grid">
+      <div class="trust-item"><span class="icon">✅</span> Licensed &amp; Insured</div>
+      <div class="trust-item"><span class="icon">🏆</span> ISO Certified</div>
+      <div class="trust-item"><span class="icon">🔒</span> Warranty on All Work</div>
+      <div class="trust-item"><span class="icon">📍</span> 20+ Cities Served</div>
+      <div class="trust-item"><span class="icon">⏱️</span> 2-Hour Emergency Response</div>
+      <div class="trust-item"><span class="icon">💰</span> Free Site Inspection</div>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services" class="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-label">Our Services</div>
+      <h2 class="section-title">Complete MEPF Solutions<br>Under One Roof</h2>
+      <p class="section-sub">From initial design to installation, commissioning, and ongoing AMC — we handle every aspect of your MEP infrastructure.</p>
+    </div>
+    <div class="services-grid">
+      <div class="svc-card reveal">
+        <div class="svc-icon">❄️</div>
+        <h3>HVAC Systems</h3>
+        <p>End-to-end heating, ventilation &amp; air conditioning for commercial and residential spaces.</p>
+        <ul class="svc-list">
+          <li>Chiller Plants &amp; Cooling Towers</li>
+          <li>VRF / VRV Multi-Split Systems</li>
+          <li>Air Handling Units (AHU)</li>
+          <li>Ductable Split &amp; Package Units</li>
+          <li>Precision Cooling (Data Centers)</li>
+          <li>HVAC AMC &amp; Breakdown Support</li>
+        </ul>
+        <a href="#contact" class="svc-link">Get a Quote →</a>
+      </div>
+      <div class="svc-card reveal">
+        <div class="svc-icon">⚡</div>
+        <h3>Electrical Works</h3>
+        <p>High &amp; low tension electrical systems for commercial complexes, hospitals, malls &amp; factories.</p>
+        <ul class="svc-list">
+          <li>LT / HT Panel Installation</li>
+          <li>Building Wiring &amp; Rewiring</li>
+          <li>Lighting Control Systems (DALI, BMS)</li>
+          <li>DG Set &amp; UPS Integration</li>
+          <li>Power Factor Correction</li>
+          <li>Energy Audit &amp; Conservation</li>
+        </ul>
+        <a href="#contact" class="svc-link">Get a Quote →</a>
+      </div>
+      <div class="svc-card reveal">
+        <div class="svc-icon">💧</div>
+        <h3>Plumbing Systems</h3>
+        <p>Comprehensive water supply, drainage &amp; sanitation systems for all building types.</p>
+        <ul class="svc-list">
+          <li>Domestic Water Supply Systems</li>
+          <li>Underground &amp; Overhead Tank</li>
+          <li>Sewage Treatment Plant (STP)</li>
+          <li>Water Treatment Plant (WTP)</li>
+          <li>Pump Room Installation</li>
+          <li>Rainwater Harvesting Systems</li>
+        </ul>
+        <a href="#contact" class="svc-link">Get a Quote →</a>
+      </div>
+      <div class="svc-card reveal">
+        <div class="svc-icon">🔥</div>
+        <h3>Fire Fighting</h3>
+        <p>Life safety and fire protection systems compliant with NBC, NFPA &amp; local fire codes.</p>
+        <ul class="svc-list">
+          <li>Automatic Sprinkler Systems</li>
+          <li>Fire Hydrant &amp; Hose Reel</li>
+          <li>FM200 / CO₂ Suppression</li>
+          <li>Fire Alarm &amp; Detection Systems</li>
+          <li>Emergency Lighting &amp; Exit Signs</li>
+          <li>Fire NOC Compliance Support</li>
+        </ul>
+        <a href="#contact" class="svc-link">Get a Quote →</a>
+      </div>
+      <div class="svc-card reveal">
+        <div class="svc-icon">🏗️</div>
+        <h3>Facility Management</h3>
+        <p>Integrated MEP facility management for IT parks, hospitals, malls &amp; housing societies.</p>
+        <ul class="svc-list">
+          <li>24/7 On-Site Technician</li>
+          <li>Predictive Maintenance (IoT)</li>
+          <li>Helpdesk &amp; Ticketing System</li>
+          <li>Monthly Compliance Reports</li>
+          <li>Spare Parts Inventory Management</li>
+          <li>BMS / SCADA Integration</li>
+        </ul>
+        <a href="#contact" class="svc-link">Get a Quote →</a>
+      </div>
+      <div class="svc-card reveal">
+        <div class="svc-icon">🌱</div>
+        <h3>Energy Solutions</h3>
+        <p>Energy efficiency upgrades, green building MEP design &amp; renewable integration.</p>
+        <ul class="svc-list">
+          <li>LED Retrofit &amp; Lighting Design</li>
+          <li>VFD &amp; Motor Optimization</li>
+          <li>Solar Integration Support</li>
+          <li>LEED / IGBC MEP Documentation</li>
+          <li>Energy Monitoring Systems</li>
+          <li>CO₂ Reduction Consulting</li>
+        </ul>
+        <a href="#contact" class="svc-link">Get a Quote →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" class="products">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-label">Products We Install</div>
+      <h2 class="section-title">Top Brands &amp; Equipment</h2>
+      <p class="section-sub">We supply and install equipment from globally trusted brands — with warranty, commissioning &amp; after-sales support.</p>
+    </div>
+    <div class="products-grid">
+      <div class="prod-card reveal"><div class="prod-img">❄️</div><div class="prod-body"><h4>Chillers &amp; Cooling Towers</h4><p>Screw, centrifugal, absorption chillers from 20TR to 2000TR. Brands: Carrier, Trane, Daikin</p><span class="prod-tag">HVAC</span></div></div>
+      <div class="prod-card reveal"><div class="prod-img">🌀</div><div class="prod-body"><h4>VRF / VRV Systems</h4><p>Multi-zone variable refrigerant systems for offices, hotels &amp; hospitals. Daikin, Mitsubishi, LG</p><span class="prod-tag">HVAC</span></div></div>
+      <div class="prod-card reveal"><div class="prod-img">💨</div><div class="prod-body"><h4>Air Handling Units</h4><p>Custom AHUs with HEPA filtration, heat recovery, and BMS integration. Systemair, Krueger</p><span class="prod-tag">HVAC</span></div></div>
+      <div class="prod-card reveal"><div class="prod-img">⚡</div><div class="prod-body"><h4>HT / LT Panels</h4><p>MCC panels, DBs, ACBs, VCBs for commercial &amp; industrial power distribution. L&amp;T, Siemens, ABB</p><span class="prod-tag">Electrical</span></div></div>
+      <div class="prod-card reveal"><div class="prod-img">🔋</div><div class="prod-body"><h4>DG Sets &amp; UPS</h4><p>Diesel generators 15kVA–2500kVA with auto-changeover panels. Cummins, Kirloskar, Caterpillar</p><span class="prod-tag">Electrical</span></div></div>
+      <div class="prod-card reveal"><div class="prod-img">🚿</div><div class="prod-body"><h4>Pump &amp; Pressure Systems</h4><p>Hydro-pneumatic, fire pump sets, booster pumps. Grundfos, KSB, Kirloskar</p><span class="prod-tag">Plumbing</span></div></div>
+      <div class="prod-card reveal"><div class="prod-img">🔴</div><div class="prod-body"><h4>Fire Alarm Panels</h4><p>Addressable &amp; conventional FACP with multi-zone detection. Honeywell, Hochiki, Notifier</p><span class="prod-tag">Fire Safety</span></div></div>
+      <div class="prod-card reveal"><div class="prod-img">🌡️</div><div class="prod-body"><h4>BMS / SCADA Systems</h4><p>Building automation, remote monitoring &amp; energy management. Johnson Controls, Schneider</p><span class="prod-tag">Automation</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="whyus">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-label" style="background:rgba(249,115,22,0.15)">Why Choose Us</div>
+      <h2 class="section-title">Built on Trust,<br>Proven by Results</h2>
+      <p class="section-sub">A decade of delivering reliable MEP solutions that keep your facilities running at peak performance.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-items">
+        <div class="why-item reveal"><div class="why-num">01</div><div class="why-content"><h4>One-Stop MEPF Partner</h4><p>Design, supply, install, commission, and maintain all MEP services under one contract — saving time, coordination, and cost.</p></div></div>
+        <div class="why-item reveal"><div class="why-num">02</div><div class="why-content"><h4>Certified Technicians</h4><p>Our team holds certifications from ASHRAE, NBC, BEE &amp; NFPA. Ongoing training ensures we stay ahead of industry standards.</p></div></div>
+        <div class="why-item reveal"><div class="why-num">03</div><div class="why-content"><h4>Transparent Pricing</h4><p>Detailed BOQ-based quotations with zero hidden charges. We provide competitive rates with a clear scope of work.</p></div></div>
+        <div class="why-item reveal"><div class="why-num">04</div><div class="why-content"><h4>IoT-Enabled Monitoring</h4><p>Smart sensors and BMS integration let us monitor your systems remotely, catching issues before they become breakdowns.</p></div></div>
+      </div>
+      <div class="why-stats">
+        <div class="wstat-card reveal"><div class="wstat-num">1,200+</div><div class="wstat-label">Projects Completed</div></div>
+        <div class="wstat-card reveal"><div class="wstat-num">98%</div><div class="wstat-label">Client Retention Rate</div></div>
+        <div class="wstat-card reveal"><div class="wstat-num">300+</div><div class="wstat-label">Active AMC Clients</div></div>
+        <div class="wstat-card reveal"><div class="wstat-num">24/7</div><div class="wstat-label">Emergency Support</div></div>
+        <div class="wstat-card reveal"><div class="wstat-num">20+</div><div class="wstat-label">Cities Served</div></div>
+        <div class="wstat-card reveal"><div class="wstat-num">4.9★</div><div class="wstat-label">Google Rating</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EMERGENCY BANNER -->
+<section class="emergency">
+  <div class="container">
+    <div class="emergency-inner">
+      <div>
+        <h2>🚨 24/7 Emergency Breakdown Support</h2>
+        <p>AC failure? Electrical fault? Water leak? Fire alarm triggered? Call us — we respond within 2 hours for all critical MEP failures.</p>
+      </div>
+      <a href="tel:+18885550123" class="btn-white">📞 Call Emergency Hotline</a>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="howitworks">
+  <div class="container">
+    <div class="section-head reveal" style="text-align:center">
+      <div class="section-label">Process</div>
+      <h2 class="section-title">How It Works</h2>
+      <p class="section-sub">From first call to completed project — our streamlined process makes it effortless.</p>
+    </div>
+    <div class="process-steps">
+      <div class="step reveal"><div class="step-circle">📞</div><h4>1. Contact Us</h4><p>Call, WhatsApp, or fill the form. We respond within 30 minutes.</p></div>
+      <div class="step reveal"><div class="step-circle">🏗️</div><h4>2. Site Survey</h4><p>Our engineer visits and assesses your MEP requirements — free of charge.</p></div>
+      <div class="step reveal"><div class="step-circle">📋</div><h4>3. Detailed Quote</h4><p>Receive a transparent BOQ-based quotation within 24 hours.</p></div>
+      <div class="step reveal"><div class="step-circle">🔧</div><h4>4. Execution</h4><p>Our certified team installs or repairs as per agreed schedule and specs.</p></div>
+      <div class="step reveal"><div class="step-circle">✅</div><h4>5. Handover</h4><p>Testing, commissioning, warranty documents, and AMC enrolment.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- AMC PLANS -->
+<section id="amc" class="amc">
+  <div class="container">
+    <div class="section-head reveal" style="text-align:center">
+      <div class="section-label">AMC Plans</div>
+      <h2 class="section-title">Annual Maintenance Contracts</h2>
+      <p class="section-sub">Choose a plan that fits your facility size and budget. All plans include priority support &amp; monthly reports.</p>
+    </div>
+    <div class="plans-grid">
+      <div class="plan-card reveal">
+        <h3>Basic</h3>
+        <div class="plan-price">₹12,000 <span>/ year</span></div>
+        <p class="plan-desc">Ideal for small offices &amp; residences</p>
+        <ul class="plan-features">
+          <li>2 Preventive Visits / Year</li>
+          <li>AC Filter Cleaning</li>
+          <li>Basic Electrical Check</li>
+          <li>Plumbing Inspection</li>
+          <li>Phone Support (9am–6pm)</li>
+          <li>Annual Health Report</li>
+        </ul>
+        <a href="#contact" class="btn-primary" style="justify-content:center">Enroll Now</a>
+      </div>
+      <div class="plan-card featured reveal">
+        <div class="plan-badge">⭐ Most Popular</div>
+        <h3>Professional</h3>
+        <div class="plan-price">₹45,000 <span>/ year</span></div>
+        <p class="plan-desc">Best for commercial buildings &amp; SMEs</p>
+        <ul class="plan-features">
+          <li>6 Preventive Visits / Year</li>
+          <li>Full HVAC Service</li>
+          <li>Electrical &amp; Plumbing Coverage</li>
+          <li>Fire System Inspection</li>
+          <li>24/7 Emergency Support</li>
+          <li>Dedicated Account Manager</li>
+          <li>Monthly Health Reports</li>
+          <li>20% Discount on Spare Parts</li>
+        </ul>
+        <a href="#contact" class="btn-primary" style="justify-content:center">Enroll Now</a>
+      </div>
+      <div class="plan-card reveal">
+        <h3>Enterprise</h3>
+        <div class="plan-price">Custom</div>
+        <p class="plan-desc">For IT parks, hospitals &amp; large facilities</p>
+        <ul class="plan-features">
+          <li>Monthly Preventive Maintenance</li>
+          <li>Full MEPF Coverage</li>
+          <li>On-Site Resident Technician</li>
+          <li>IoT / BMS Monitoring</li>
+          <li>SLA-Based Response Times</li>
+          <li>Quarterly Compliance Audits</li>
+          <li>Dedicated Project Engineer</li>
+          <li>Spare Parts Included</li>
+        </ul>
+        <a href="#contact" class="btn-primary" style="justify-content:center">Get Custom Quote</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-label">Client Reviews</div>
+      <h2 class="section-title">What Our Clients Say</h2>
+      <p class="section-sub">4.9★ average across 310+ verified Google reviews.</p>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card reveal">
+        <div class="stars">★★★★★</div>
+        <p class="review-text">"HVAC Pro Solutions handled our 50,000 sq ft IT park AMC for 3 years. Zero unplanned downtime. Their team is responsive, professional, and genuinely knows MEP systems inside out."</p>
+        <div class="reviewer"><div class="rev-avatar">RK</div><div><div class="rev-name">Rajesh Kumar</div><div class="rev-role">Facility Manager, TechPark One</div></div></div>
+      </div>
+      <div class="review-card reveal">
+        <div class="stars">★★★★★</div>
+        <p class="review-text">"Emergency chiller breakdown at 2 AM — their team was on-site within 90 minutes. Had us cooling again in 4 hours. That kind of response is why we've been with them for 5 years."</p>
+        <div class="reviewer"><div class="rev-avatar">SA</div><div><div class="rev-name">Sunita Agarwal</div><div class="rev-role">GM Operations, Greenwood Hospital</div></div></div>
+      </div>
+      <div class="review-card reveal">
+        <div class="stars">★★★★★</div>
+        <p class="review-text">"Complete MEP installation for our new mall — HVAC, electrical, plumbing, fire fighting — all delivered on time and under budget. Rare to find a single contractor who excels at all four."</p>
+        <div class="reviewer"><div class="rev-avatar">PM</div><div><div class="rev-name">Priya Mehta</div><div class="rev-role">Director, Nexus Retail Group</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section id="blog" class="blog">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-label">Expert Blog</div>
+      <h2 class="section-title">HVAC &amp; MEP Insights</h2>
+      <p class="section-sub">Tips, guides &amp; technical articles to help you maintain your building systems and reduce energy costs.</p>
+    </div>
+    <div class="blog-grid">
+      <div class="blog-card reveal">
+        <div class="blog-thumb">❄️</div>
+        <div class="blog-body">
+          <span class="blog-tag">HVAC Tips</span>
+          <h4>5 Signs Your Chiller Needs Servicing Before Summer</h4>
+          <p>Unusual noises, rising discharge pressure, or inconsistent cooling? Here's what to watch for to prevent a costly breakdown in peak season.</p>
+          <div class="blog-meta"><span>May 2025 · 5 min read</span><a href="#" class="read-more">Read More →</a></div>
+        </div>
+      </div>
+      <div class="blog-card reveal">
+        <div class="blog-thumb">⚡</div>
+        <div class="blog-body">
+          <span class="blog-tag">Energy Saving</span>
+          <h4>How VFDs Can Reduce Your HVAC Energy Bill by 30–40%</h4>
+          <p>Variable Frequency Drives are one of the most cost-effective upgrades for pump and fan motors. Here's the ROI calculation with real project data.</p>
+          <div class="blog-meta"><span>Apr 2025 · 7 min read</span><a href="#" class="read-more">Read More →</a></div>
+        </div>
+      </div>
+      <div class="blog-card reveal">
+        <div class="blog-thumb">🔥</div>
+        <div class="blog-body">
+          <span class="blog-tag">Fire Safety</span>
+          <h4>Fire NOC Compliance Checklist for Commercial Buildings</h4>
+          <p>Getting fire NOC from the local authority? Here's a complete checklist covering sprinklers, exits, alarm panels, and hydrant spacing requirements.</p>
+          <div class="blog-meta"><span>Mar 2025 · 6 min read</span><a href="#" class="read-more">Read More →</a></div>
+        </div>
+      </div>
+      <div class="blog-card reveal">
+        <div class="blog-thumb">💧</div>
+        <div class="blog-body">
+          <span class="blog-tag">Plumbing</span>
+          <h4>STP vs ETP: Which Wastewater Treatment Does Your Building Need?</h4>
+          <p>Sewage treatment vs effluent treatment — understanding the difference, legal requirements, and which system is right for your facility type.</p>
+          <div class="blog-meta"><span>Feb 2025 · 8 min read</span><a href="#" class="read-more">Read More →</a></div>
+        </div>
+      </div>
+      <div class="blog-card reveal">
+        <div class="blog-thumb">🏗️</div>
+        <div class="blog-body">
+          <span class="blog-tag">AMC</span>
+          <h4>Why Your Building Needs an AMC (Not Just Reactive Repairs)</h4>
+          <p>Annual maintenance contracts save 3–5x more than reactive repairs. Here's the data, including average breakdown costs vs AMC costs over 5 years.</p>
+          <div class="blog-meta"><span>Jan 2025 · 5 min read</span><a href="#" class="read-more">Read More →</a></div>
+        </div>
+      </div>
+      <div class="blog-card reveal">
+        <div class="blog-thumb">🌱</div>
+        <div class="blog-body">
+          <span class="blog-tag">Green Building</span>
+          <h4>MEP Design Strategies for LEED Platinum Certification</h4>
+          <p>From heat recovery units to greywater recycling — the exact MEP strategies used in our LEED Platinum certified projects and how they cut energy by 45%.</p>
+          <div class="blog-meta"><span>Dec 2024 · 9 min read</span><a href="#" class="read-more">Read More →</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATION + TIMING -->
+<section id="location" class="location">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-label">Find Us</div>
+      <h2 class="section-title">Location &amp; Business Hours</h2>
+      <p class="section-sub">Visit our office or reach us any time — we're available 24/7 for emergencies.</p>
+    </div>
+    <div class="location-grid">
+      <div class="map-wrapper reveal">
+        <!-- Google Maps embed — replace YOUR_API_KEY and coordinates with actual values -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0!2d-122.4194!3d37.7749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sHVAC+Pro+Solutions!5e0!3m2!1sen!2sus!4v1700000000000"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="HVAC Pro Solutions Location">
+        </iframe>
+        <div style="padding:14px 18px; background:#fff5ee; font-size:0.85rem; color:#ea580c; display:flex; align-items:center; gap:8px;">
+          📍 <strong>123 Industrial Park, Suite 400, Your City</strong> &nbsp;—&nbsp; <a href="https://maps.google.com" target="_blank" style="color:var(--orange); font-weight:600;">Get Directions →</a>
+        </div>
+      </div>
+      <div class="location-info reveal">
+        <h3>Office &amp; Support Hours</h3>
+        <div class="info-row">
+          <div class="info-icon">📍</div>
+          <div>
+            <div class="info-label">Head Office</div>
+            <div class="info-value">123 Industrial Park, Suite 400<br>Your City, State — 000001</div>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon">📞</div>
+          <div>
+            <div class="info-label">Phone Numbers</div>
+            <div class="info-value"><a href="tel:+18885550123" style="color:var(--navy);text-decoration:none;">(888) 555-0123</a> — Office<br><a href="tel:+18885550124" style="color:var(--orange);font-weight:700;text-decoration:none;">(888) 555-0124</a> — 24/7 Emergency</div>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon">✉️</div>
+          <div>
+            <div class="info-label">Email</div>
+            <div class="info-value"><a href="mailto:info@hvacprosolutions.com" style="color:var(--navy);text-decoration:none;">info@hvacprosolutions.com</a><br><a href="mailto:amc@hvacprosolutions.com" style="color:var(--mid);text-decoration:none;font-size:0.88rem;">amc@hvacprosolutions.com</a></div>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon">🕐</div>
+          <div>
+            <div class="info-label">Business Hours</div>
+            <div class="hours-grid" style="margin-top:6px;">
+              <div class="hour-row"><strong>Mon–Fri</strong><br>8:00 AM – 7:00 PM</div>
+              <div class="hour-row"><strong>Saturday</strong><br>9:00 AM – 5:00 PM</div>
+              <div class="hour-row"><strong>Sunday</strong><br>Emergency Only</div>
+              <div class="hour-row"><strong>Holidays</strong><br>Emergency Only</div>
+            </div>
+            <div class="open-badge">Open Now — Emergency Line Active</div>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon">🗺️</div>
+          <div>
+            <div class="info-label">Service Coverage</div>
+            <div class="info-value" style="font-size:0.85rem; font-weight:400; color:var(--mid);">Mumbai · Pune · Nashik · Aurangabad · Nagpur · Thane · Navi Mumbai · Kolhapur · Solapur · Hyderabad + 10 more cities</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT FORM -->
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="section-label">Contact Us</div>
+        <h3>Let's Discuss Your<br>MEP Requirements</h3>
+        <p>Whether it's a new installation, AMC contract, or emergency repair — fill the form and our expert will call you back within 30 minutes.</p>
+        <div class="contact-cards">
+          <a href="tel:+18885550123" class="ccard">
+            <span class="ccard-icon">📞</span>
+            <div><div class="ccard-label">Call Us</div><div class="ccard-value">(888) 555-0123</div></div>
+          </a>
+          <a href="mailto:info@hvacprosolutions.com" class="ccard">
+            <span class="ccard-icon">✉️</span>
+            <div><div class="ccard-label">Email Us</div><div class="ccard-value">info@hvacprosolutions.com</div></div>
+          </a>
+          <a href="https://wa.me/18885550123" class="ccard" target="_blank">
+            <span class="ccard-icon">💬</span>
+            <div><div class="ccard-label">WhatsApp</div><div class="ccard-value">Chat with us instantly</div></div>
+          </a>
+        </div>
+      </div>
+      <div class="form-box reveal">
+        <div class="form-title">Request a Free Site Visit or Quote</div>
+        <form id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group"><label>Full Name *</label><input type="text" placeholder="John Smith" required></div>
+            <div class="form-group"><label>Phone Number *</label><input type="tel" placeholder="+1 888 555 0123" required></div>
+          </div>
+          <div class="form-group"><label>Email Address</label><input type="email" placeholder="john@company.com"></div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Service Required *</label>
+              <select required>
+                <option value="">Select a Service</option>
+                <option>HVAC Installation / AMC</option>
+                <option>Electrical Works</option>
+                <option>Plumbing Systems</option>
+                <option>Fire Fighting Systems</option>
+                <option>Facility Management</option>
+                <option>Emergency Repair</option>
+                <option>Annual Maintenance Contract</option>
+                <option>Energy Audit</option>
+                <option>Other / Multiple Services</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Facility Type</label>
+              <select>
+                <option value="">Select Type</option>
+                <option>Commercial Office</option>
+                <option>IT Park / Data Center</option>
+                <option>Hospital / Healthcare</option>
+                <option>Mall / Retail</option>
+                <option>Hotel / Hospitality</option>
+                <option>Industrial / Factory</option>
+                <option>Residential / Society</option>
+                <option>Government / PSU</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group"><label>Facility Size (sq ft / TR)</label><input type="text" placeholder="e.g. 50,000 sq ft or 200 TR chiller"></div>
+          <div class="form-group"><label>Describe Your Requirement</label><textarea placeholder="Tell us about your project, current issues, or what you need — the more detail the better."></textarea></div>
+          <button type="submit" class="submit-btn">🔧 Submit Request — We'll Call in 30 Min</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo">HVAC Pro <span>Solutions</span></a>
+        <p>Your trusted MEPF partner since 2012. Delivering world-class HVAC, electrical, plumbing &amp; fire safety solutions for commercial and residential spaces across 20+ cities.</p>
+        <div class="social-links">
+          <a href="#" class="social-link">📘</a>
+          <a href="#" class="social-link">📸</a>
+          <a href="#" class="social-link">💼</a>
+          <a href="#" class="social-link">📺</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#services">HVAC Systems</a></li>
+          <li><a href="#services">Electrical Works</a></li>
+          <li><a href="#services">Plumbing Systems</a></li>
+          <li><a href="#services">Fire Fighting</a></li>
+          <li><a href="#services">Facility Management</a></li>
+          <li><a href="#services">Energy Solutions</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#amc">AMC Plans</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#blog">Blog &amp; Tips</a></li>
+          <li><a href="#location">Our Offices</a></li>
+          <li><a href="#contact">Get a Quote</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Certifications</h5>
+        <div class="cert-badges">
+          <div class="cert-badge">✅ ISO 9001:2015 Certified</div>
+          <div class="cert-badge">🏛️ ASHRAE Member</div>
+          <div class="cert-badge">🔥 NFPA Certified</div>
+          <div class="cert-badge">🌿 BEE Empanelled</div>
+          <div class="cert-badge">🏗️ Licensed Contractor</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div style="color:#64748b;">© 2025 HVAC Pro Solutions. All rights reserved. | Licensed &amp; Insured MEPF Contractor</div>
+      <div>✨ Designed &amp; Developed by <a href="https://www.accumentechno.com" target="_blank" class="accumen-link">Accumen Techno Marketing Solutions</a> — Web, Digital &amp; Growth Partner</div>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING BUTTONS -->
+<div class="floating-cta">
+  <a href="tel:+18885550123" class="float-btn float-phone" title="Call Now">📞</a>
+  <a href="https://wa.me/18885550123" class="float-btn float-chat" title="WhatsApp Us" target="_blank">💬</a>
+</div>
+
+<script>
+  // Mobile nav
+  function openMobileNav() { document.getElementById('mobileNav').classList.add('active'); document.body.style.overflow='hidden'; }
+  function closeMobileNav() { document.getElementById('mobileNav').classList.remove('active'); document.body.style.overflow=''; }
+
+  // Scroll reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        e.target.style.transitionDelay = (i % 4) * 0.1 + 's';
+        e.target.classList.add('visible');
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  revealEls.forEach(el => observer.observe(el));
+
+  // Form submission
+  function handleSubmit(e) {
+    e.preventDefault();
+    const btn = e.target.querySelector('.submit-btn');
+    btn.textContent = '✅ Request Received! We\'ll call you shortly.';
+    btn.style.background = '#16a34a';
+    btn.disabled = true;
+    setTimeout(() => {
+      btn.textContent = '🔧 Submit Request — We\'ll Call in 30 Min';
+      btn.style.background = '';
+      btn.disabled = false;
+      e.target.reset();
+    }, 5000);
+  }
+
+  // Active nav highlight
+  const sections = document.querySelectorAll('section[id]');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => { if (window.scrollY >= s.offsetTop - 100) current = s.id; });
+    document.querySelectorAll('.nav a').forEach(a => {
+      a.style.color = a.getAttribute('href') === '#' + current ? 'var(--orange)' : '';
+    });
+  });
+</script>
+</body>
+</html>
